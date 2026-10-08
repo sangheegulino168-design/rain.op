@@ -23,6 +23,7 @@ python flowscan.py --demo
 | 01 | [FlowScan](agents/01-flowscan) | 轻量流量异常检测：识别端口扫描、SYN Flood、内网 Beaconing，自带流量生成器做演示 | 流量监测 |
 | 02 | [SecQA](agents/02-secqa) | 离线安全知识问答：BM25 检索 + 抽取式回答，内置 24 条 Web/系统/应急知识，纯标准库 | RAG |
 | 03 | [FileProbe](agents/03-fileprobe) | 针对 CVE-2026-21589 的 HTTP 日志检测：识别 Atlassian 产品未授权文件读取的路径遍历/敏感文件探测，输出告警 | 流量监测 |
+| 04 | [PhishHunt](agents/04-phishhunt) | 钓鱼邮件智能分析：10 类特征提取 + BM25 检索钓鱼知识库，输出风险评分、证据链与引用，纯标准库 | RAG |
 
 ## 📐 约定
 
