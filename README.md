@@ -36,6 +36,8 @@ python flowscan.py --demo
 
 | 05 | [DNSTunnel](agents/05-dnstunnel/) | DNS 隧道/数据渗出检测：6 组启发式特征打分（超长子域名、高熵载荷、TXT 滥用等），输出告警 | 流量监测 |
 
+| 06 | [VulnQA](agents/06-vulnqa/) | 离线漏洞情报问答：BM25 检索 20 条高危 CVE 知识库，按编号/自然语言提问，输出漏洞情报卡片，纯标准库 | RAG |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
